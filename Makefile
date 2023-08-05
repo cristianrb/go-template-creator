@@ -1,3 +1,6 @@
+build:
+	go build -o bin/gtc cmd/main.go
+
 run:
 	cd cmd && go run main.go gtc --routing=chi --logging=zap --config=viper --path=/home/cristian/development/go --name=gtc_test
 
