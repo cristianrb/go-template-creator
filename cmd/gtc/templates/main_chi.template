@@ -1,0 +1,11 @@
+package main
+
+import (
+    "{GO_MOD_NAME}/api"
+)
+
+func main() {
+    println("Starting main...")
+	server := api.CreateServer("8080")
+	server.Run()
+}
